@@ -238,3 +238,99 @@ body {
   }
   
  
+ @media screen and (max-width:470px){
+  figure img{
+    display: none;
+  }
+
+  body{
+    width: 100%;
+    margin: auto;
+    margin-left: -11%
+  }
+  #about p{
+    width: 100%;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+  }
+  .skills , .experience , #hobbies ul{
+    border-left: none;
+   
+  }
+ 
+  section h3{
+    text-decoration: underline;
+   
+    
+  }
+   
+   .skills-secondary{
+      margin-bottom: 35px;
+  
+  }
+  
+.skills-primary, .skills-secondary {
+ 
+  margin-left: auto; 
+  top: 40px;
+  width: 380px;
+  left: -11px;
+ 
+}
+
+  #experience p{
+      width: 100%;
+  }
+  .experience{
+      width: 100%;
+      position: relative;
+      left: -120px;
+      top: 50px;
+    
+      
+  }
+  .experience-type , .experience-date{
+    font-size: 15px;
+ 
+  }
+  .experience{
+ 
+  margin-bottom: 20px;
+  }
+  #education h3{
+    margin-top: 85px;
+}
+#hobbies{
+    margin-top: 70px;
+}
+ul{
+    position: relative;
+    right: 110px;
+    top: 40px;
+}
+ .contacts{
+  width: 120%;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: left;
+  
+}
+.contact{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  top: 150px;
+  left: -110px;
+}
+.fa-envelope{
+  width: 70px;
+  height: 70px;
+
+}
+.fa-phone{
+  width: 80px;
+  height: 80px;
+}
+
+}
